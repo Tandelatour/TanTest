@@ -29,7 +29,7 @@ class JeuAccueilActivity : AppCompatActivity() {
             this,
             R.layout.activity_jeu_accueil
         )
-
+//maj
 //        binding.btnAccueil.setOnClickListener() {
 //            findNavController().navigate(R.id.action_fragmentDead_to_fragmentZero)
 //        }
