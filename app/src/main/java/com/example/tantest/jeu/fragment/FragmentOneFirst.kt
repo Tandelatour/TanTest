@@ -8,22 +8,21 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.navigation.fragment.findNavController
 import com.example.tantest.R
+import com.example.tantest.databinding.FragmentOneFirstBinding
 import com.example.tantest.databinding.FragmentZeroBinding
 
-
-class FragmentZero : Fragment() {
+class FragmentOneFirst : Fragment() {
 
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
-        val binding = DataBindingUtil.inflate<FragmentZeroBinding>(
-            inflater,
-            R.layout.fragment_zero,
-            container,
-            false
-        )
+    ): View? { val binding = DataBindingUtil.inflate<FragmentOneFirstBinding>(
+        inflater,
+        R.layout.fragment_one_first,
+        container,
+        false
+    )
 
         binding.btnOne.setOnClickListener() {
             findNavController().navigate(R.id.action_fragmentZero_to_fragmentOne)
@@ -41,6 +40,5 @@ class FragmentZero : Fragment() {
 
         return binding.root
     }
-
 
 }

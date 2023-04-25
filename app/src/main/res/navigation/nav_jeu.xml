@@ -17,6 +17,9 @@
         <action
             android:id="@+id/action_Dead"
             app:destination="@id/fragmentDead" />
+        <action
+            android:id="@+id/action_fragmentZero_to_fragmentZeroBis"
+            app:destination="@id/fragmentZeroBis" />
     </fragment>
 
 
@@ -35,6 +38,17 @@
         android:label="FragmentDead" >
         <action
             android:id="@+id/action_fragmentDead_to_fragmentZero"
+            app:destination="@id/fragmentZero" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentZeroBis"
+        android:name="com.example.tantest.jeu.fragment.FragmentZeroBis"
+        android:label="FragmentZeroBis" >
+        <action
+            android:id="@+id/action_Dead"
+            app:destination="@id/fragmentDead" />
+        <action
+            android:id="@+id/action_fragmentZeroBis_to_fragmentZero"
             app:destination="@id/fragmentZero" />
     </fragment>
 </navigation>

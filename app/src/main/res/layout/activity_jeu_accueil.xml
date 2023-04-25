@@ -13,7 +13,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#264324"
+            android:background="#1f1f1f"
             android:orientation="horizontal"
             android:paddingVertical="10dp">
 
@@ -32,9 +32,9 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
             android:layout_weight="1"
-            android:background="#485c47"
+            android:background="#3b3b3b"
             android:orientation="vertical">
             <!--fragment-->
 
@@ -50,7 +50,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#264324"
+            android:background="#1f1f1f"
             android:orientation="horizontal"
 
             android:paddingVertical="10dp">
@@ -60,7 +60,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@android:color/transparent"
-                android:text="reset" />
+                android:text="revenir au début" />
 
 
         </LinearLayout>

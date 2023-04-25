@@ -19,7 +19,8 @@
                 android:layout_margin="18dp"
                 android:background="@android:color/background_light"
                 android:padding="15dp"
-                android:text="Soudain, tu te réveilles en pleine nuit, au cœur d'un bois dense, vêtu d'un simple pantalon et d'un t-shirt abîmé, avec une paire de chaussures usées. Face à cette situation pour le moins inhabituelle, tu es immédiatement confronté à plusieurs choix. Que feras-tu pour te sortir de cette situation ?"
+                android:text="Tu avances lentement, scrutant l'obscurité de la forêt qui t'entoure. Alors que tu progresses avec précaution, tes yeux remarquent un bâton qui se trouve un peu plus loin. Tu te demandes s'il pourrait te servir de bâton de marche pour t'aider à avancer plus facilement.
+Tu hésites un instant, te demandant si tu devrais t'approcher pour le prendre ou non"
                 android:textSize="18sp" />
 
             <LinearLayout
@@ -28,25 +29,21 @@
                 android:layout_marginHorizontal="90dp"
                 android:orientation="vertical">
 
+
                 <Button
+                    android:id="@+id/btnOne"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:backgroundTint="@android:color/background_light"
-                    android:text="Chercher la civilisation."
+                    android:text="ne pas le rammaser et passer son chemin"
                     android:textColor="@color/black" />
 
                 <Button
+                    android:id="@+id/btnTwo"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:backgroundTint="@android:color/background_light"
-                    android:text="Attendre un peu ...  "
-                    android:textColor="@color/black" />
-
-                <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:backgroundTint="@android:color/background_light"
-                    android:text="Rester chez soi"
+                    android:text="Rammaser le bâton "
                     android:textColor="@color/black" />
 
 

@@ -5,8 +5,7 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        tools:context=".jeu.fragment.FragmentOne">
+        tools:context=".jeu.fragment.FragmentZero">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -19,7 +18,7 @@
                 android:layout_margin="18dp"
                 android:background="@android:color/background_light"
                 android:padding="15dp"
-                android:text="Soudain, tu te réveilles en pleine nuit, au cœur d'un bois dense, vêtu d'un simple pantalon et d'un t-shirt abîmé, avec une paire de chaussures usées. Face à cette situation pour le moins inhabituelle, tu es immédiatement confronté à plusieurs choix. Que feras-tu pour te sortir de cette situation ?"
+                android:text="Tu te tiens figé dans l'obscurité de la nuit, vulnérable et désorienté. Tu ne sais pas quoi faire pour sortir de ce bois dense et inhospitalier. Tu te sens angoissé à l'idée de toutes les choses qui pourraient se cacher dans l'obscurité environnante. Tu te demandes si tu es en danger et si tu vas survivre à cette nuit cauchemardesque."
                 android:textSize="18sp" />
 
             <LinearLayout
@@ -29,24 +28,19 @@
                 android:orientation="vertical">
 
                 <Button
+                    android:id="@+id/btnOne"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:backgroundTint="@android:color/background_light"
-                    android:text="Chercher la civilisation."
+                    android:text="Se décider à faire un choix"
                     android:textColor="@color/black" />
 
                 <Button
+                    android:id="@+id/btnTwo"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:backgroundTint="@android:color/background_light"
-                    android:text="Attendre un peu ...  "
-                    android:textColor="@color/black" />
-
-                <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:backgroundTint="@android:color/background_light"
-                    android:text="Rester chez soi"
+                    android:text="Attendre encore ...  "
                     android:textColor="@color/black" />
 
 
@@ -55,5 +49,4 @@
         </LinearLayout>
 
     </FrameLayout>
-
 </layout>
