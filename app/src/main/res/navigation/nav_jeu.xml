@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_jeu"
+    app:startDestination="@id/fragmentZero">
+
+
+    <fragment
+        android:id="@+id/fragmentZero"
+        android:name="com.example.tantest.jeu.fragment.FragmentZero"
+        android:label="fragment_zero"
+        tools:layout="@layout/fragment_zero" >
+        <action
+            android:id="@+id/action_fragmentZero_to_fragmentOne"
+            app:destination="@id/fragmentOne" />
+        <action
+            android:id="@+id/action_Dead"
+            app:destination="@id/fragmentDead" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/fragmentOne"
+        android:name="com.example.tantest.jeu.fragment.FragmentOne"
+        android:label="FragmentOne" >
+        <action
+            android:id="@+id/action_Dead"
+            app:destination="@id/fragmentDead" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragmentDead"
+        android:name="com.example.tantest.jeu.fragment.FragmentDead"
+        android:label="FragmentDead" >
+        <action
+            android:id="@+id/action_fragmentDead_to_fragmentZero"
+            app:destination="@id/fragmentZero" />
+    </fragment>
+</navigation>

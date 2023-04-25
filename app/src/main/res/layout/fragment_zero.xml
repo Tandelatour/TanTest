@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".jeu.fragment.FragmentZero">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="18dp"
+                android:background="@android:color/background_light"
+                android:padding="15dp"
+                android:text="Es-tu prêt·e à affronter l'inconnu ?\nLes ombres qui se dissimulent dans l'obscurité sont assoiffées de ta peur et les pièges qui jalonnent ton chemin sont prêts à se refermer sur toi.\nSois courageux·se et perspicace, car l'aventure qui t'attend te plongera au plus profond de tes craintes les plus sombres..."
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="90dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btnOne"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@android:color/background_light"
+                    android:text="Partir à l'aventure"
+                    android:textColor="@color/black" />
+
+                <Button
+                    android:id="@+id/btnTwo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@android:color/background_light"
+                    android:text="Attendre un peu ...  "
+                    android:textColor="@color/black" />
+
+                <Button
+                    android:id="@+id/btnThree"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@android:color/background_light"
+                    android:text="Rester chez soi"
+                    android:textColor="@color/black" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+</layout>
